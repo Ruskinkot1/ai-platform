@@ -1,4 +1,4 @@
-#  Representation Learning
+#  Feature Engineering
 
 Scikit-learn implementation of a Restricted Boltzmann Machine (RBM), Principal Component Analysis (PCA) for feature engineering in MNIST digits classification by logistic regression, sklearn multiayer perceptron (MLP) and support vector machine classifier.
 
