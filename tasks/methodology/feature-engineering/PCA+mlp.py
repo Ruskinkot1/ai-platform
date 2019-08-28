@@ -63,5 +63,5 @@ if __name__ == "__main__":
   score=metrics.accuracy_score(Y_test, Y_pred)
   mlflow.log_metric("score", score)
   mlflow.sklearn.log_model(pca_features_mlp_classifier, "model")
-  print("Model saved in run %s" % mlflow.active_run().info.run_uuid)
+
 
