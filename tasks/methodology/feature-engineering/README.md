@@ -82,4 +82,11 @@ precision    recall  f1-score   support</p>
 <p>avg / total       0.83      0.83      0.83      1797</p>
 <h2 id="final-model">Final model</h2>
 <p>The sklearn PCA-MLP pipeline was chosen as optimal model and tuned by hyperparameters. I used MLflow package to build final PCA-MLP model.</p>
+<h2 id="quick-start">Quick start</h2>
+<p>You can view model run in MLflow ui by typing in command line</p>
+<pre><code>$ mlflow run MLproject_PCA_mlp
+</code></pre>
+<p>To open MLflow user interface on your local server ( 127.0.0.1:5000 )  run</p>
+<pre><code>$ mlflow ui
+</code></pre>
 
