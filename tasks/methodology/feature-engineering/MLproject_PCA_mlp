@@ -1,0 +1,6 @@
+name: MLproject_PCA_mlp
+conda_env: meta.yaml
+
+entry_points:
+  main:
+    command: "PCA+mlp.py"
